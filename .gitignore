@@ -1,4 +1,6 @@
 #
+
+
 # This file tells Git about engine files that never really belong in source control.  They are usually build products, log 
 # files and intermediate files generated from a compiler or the engine runtime.
 #
@@ -16,6 +18,7 @@
 # Ignore all files by default, but scan all directories
 *
 !*/
+!*.uasset
 
 # C/C++ source files
 !*.c
@@ -179,6 +182,7 @@ Engine/Source/Programs/AutomationTool/BuildGraph/BuildGraph.Automation.xml
 
 # Ignore content folders
 Content/
+!/ActionRPG/Content
 
 # Ignore DDC
 /Engine/DerivedDataCache/**
