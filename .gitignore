@@ -20,6 +20,8 @@
 !*/
 !*.uasset
 
+!ActionRPG/Build/Windows/Application.ico
+
 # C/C++ source files
 !*.c
 !*.cc
